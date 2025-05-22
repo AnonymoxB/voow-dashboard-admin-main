@@ -1,0 +1,38 @@
+{
+  "name": "voow-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.10.1",
+    "@tinymce/tinymce-react": "^4.3.0",
+    "@types/node": "20.6.1",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "axios": "^1.5.0",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "js-cookie": "^3.0.5",
+    "next": "13.4.19",
+    "postcss": "8.4.29",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sweetalert2": "^11.7.28",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/draft-js": "^0.11.13",
+    "@types/draftjs-to-html": "^0.8.2",
+    "@types/js-cookie": "^3.0.4",
+    "@types/react-draft-wysiwyg": "^1.13.4",
+    "daisyui": "^3.7.5"
+  }
+}
